@@ -2,9 +2,9 @@ def bitcoinToEuros(bitcoin_amount, bitcoin_value_euros):
     euros_value = bitcoin_amount * bitcoin_value_euros
     return euros_value
 
-bitcoin_amount = 1.5
-bitcoin_value_usd = 35000
-bitcoin_value_euros = 0.85 * bitcoin_value_usd  # Suponiendo una tasa de cambio de 0.85 euros por dólar
+bitcoin_amount = 1  # Suponemos que tenemos un Bitcoin
+bitcoin_value_usd = 30699  # Valor del Bitcoin en dólares
+bitcoin_value_euros = 0.92 * bitcoin_value_usd  # 0,92 euros por dólar
 
 euros_value = bitcoinToEuros(bitcoin_amount, bitcoin_value_euros)
 print("Valor en Euros:", euros_value)
